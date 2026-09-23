@@ -1,11 +1,11 @@
-const mario = document.querySelector('.player');
-const pipe = document.querySelector('.obstacle');
+const mario = document.querySelector('.mario');
+const pipe = document.querySelector('.pipe');
 
 const jump = () => {
-  mario.classList.remove('jump');
+  mario.classList.add('jump');
   
     setTimeout(() => {
-        mario.classList.remove('jump');
+        mario.ClassList.remove('jump');
     }, 500);
 };
 
